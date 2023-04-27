@@ -36,7 +36,6 @@ function SearchResult (props) {
       for(let i=1; i<max+1; i++){
         sendApi(i);
       }
-      console.log(i)  
     }       
   }, [param]);
 
