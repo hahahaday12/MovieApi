@@ -1,11 +1,12 @@
 import React from "react";
+import jjang from '../../image/jjang.jpg'
 import '../../scss/about/about.scss'
 
 function AboutPage () {
   return(
     <div className="AboutContainer">
       <div className="AboutContainer-photo">
-        <img src={('../src/image/jjang.jpg')}/>
+        <img src={jjang}/>
       </div>
 
       <div className="AboutContainer-box">
