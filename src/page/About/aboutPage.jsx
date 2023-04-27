@@ -5,7 +5,7 @@ function AboutPage () {
   return(
     <div className="AboutContainer">
       <div className="AboutContainer-photo">
-        <img src='./src/image/jjang.jpg' alt="selfi"/>
+        <img src='../public/image/jjang.jpg' alt="selfi"/>
       </div>
 
       <div className="AboutContainer-box">
