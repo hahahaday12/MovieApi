@@ -1,0 +1,80 @@
+.Resultcontainer{
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  //background-color: rgb(49, 221, 244);
+  position: relative;
+
+  .Resultcontainer-box{
+    padding-top: 40px;
+    display: flex;
+    width: 90%;
+    max-width:1364px;
+    margin: auto;
+    //background-color: rgb(220, 164, 12);
+  }
+
+  .Result-container__inner{
+    background-color: #e9ecef;
+    padding: 10px 0;
+    border-radius: 4px;
+    text-align: center;
+
+    .Result-container__movies{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+
+      .Result-container__MovieItem {
+        display: block;
+        width: 200px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 4px;
+        background-color: #ced4da;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        color: #fdc000;
+        text-decoration: underline;
+        background-image: var(--props-image);
+
+      .MovieItem-info {
+        background-color: rgba(0,0,0,.3);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        padding: 14px;
+        font-size: 14px;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      }
+    }
+  }
+
+  .NotFoundLayer{
+    padding: 70px 0;
+    width: 100%;
+    background-color: #ced4da;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+
+    .NotFoundLayer-title{
+      color: #6d7073;
+      font-size: 20px;
+    }
+  }
+}

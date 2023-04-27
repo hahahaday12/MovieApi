@@ -1,0 +1,28 @@
+.LoadingContainer{
+  //padding: 70px 0;
+  width: 76%;
+  //height: 100px;
+  //background-color: #ced4da;
+  border-radius: 4px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  display: flex;
+  margin: auto;
+  z-index: 100;
+  left: 0;
+  right: 50px;
+  top: 40%;
+ 
+
+  .LoadingContainer-box{
+    width: 1300px;
+    //background-color: rebeccapurple;
+    
+
+    img{
+      display: flex;
+      margin: auto;
+    }
+  } 
+}
