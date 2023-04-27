@@ -36,6 +36,7 @@ function DetailPage () {
     { loading ? <div className={st('Load')}><Loading/></div> : 
     <div className={st('Detail-Container')}>
       <div className={st('Detail-Container_box')}>
+        <div className={st('Detail-Container_inner')}>
         
         <div className={st('Detail-Container__moviebox')} delay={4000}>
           <img className={st('Detail-Container__movieimg')} 
@@ -88,6 +89,7 @@ function DetailPage () {
             <h3>Genre</h3>
             <span>{movieimg.Genre}</span>
           </div>
+        </div>
         </div>  
       </div>
     </div>
