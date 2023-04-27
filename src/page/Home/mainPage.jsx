@@ -1,7 +1,7 @@
 import React from "react"
-import Description from "./components/Descript";
-import SearchForm from "./components/Search";
-import SearchResult from "./components/SearchResult";
+import Description from "./components/descript";
+import SearchForm from "./components/search";
+import SearchResult from "./components/searchResult";
 import '../../scss/main.scss'
 import { useState } from "react"
 
