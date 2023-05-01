@@ -15,12 +15,12 @@ function YearBox(props) {
 
   return(
     <>
-     <div className="YearContainer-input__selects">
+    <div className="YearContainer-input__selects">
       <select name="year" className="Year-select" onChange={handleChange}>        
         <option>All year</option> 
         {renderNum()}
       </select>
-      </div>
+    </div>
     </>
   )
 };
