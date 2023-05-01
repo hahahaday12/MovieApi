@@ -1,26 +1,22 @@
 import React from "react";
-import jjang from '../../image/jjang.jpg'
 import '../../scss/about/about.scss'
+import sell from '../../image/sell.jpg';
 
 function AboutPage () {
   return(
     <div className="AboutContainer">
       <div className="AboutContainer-photo">
-        <img src={jjang}/>
+        <img src={sell}/>
       </div>
 
       <div className="AboutContainer-box">
         <span>HAHAEUN</span>
-
-        
         <div className="AboutContainer-box__bottom">
         <p> 📨 hahahaday122@gmail.com</p>
         <p> 💻 https://github.com/hahahaday12</p>
         <p> 🎈 https://velog.io/@hahahaday12</p>
         </div>
       </div>
- 
-
     </div>
   )
 };
