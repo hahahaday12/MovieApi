@@ -10,5 +10,5 @@ function Loading() {
       </div>
     </div>
   )
-}
+};
 export default Loading
