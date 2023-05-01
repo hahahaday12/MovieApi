@@ -1,3 +1,5 @@
+@import '../variables';
+
 .Load{
   max-width:1364px;
   height: 80vh;
@@ -5,28 +7,18 @@
   margin: auto;
 }
 
-
-
 .Detail-Container{
-  //background-color: rgb(195, 15, 239);
-  display: flex;
-  position: relative;
-  width: 100%;
-
 
   .Detail-Container_box{
     padding-top: 40px;
     width: 90%;
     max-width:1364px;
     margin: auto;
-    //background-color: rgb(55, 26, 76);
 
     .Detail-Container_inner{
-      width: 90%;
-      position: relative;
-      margin: auto;
+      width: inherit;
+      margin: inherit;
       padding-bottom: 750px;
-      //background-color: rgb(115, 170, 218);
     }
   }
 
@@ -36,14 +28,11 @@
     float: left;
     box-sizing: border-box;
 
-
     .Detail-Container__movieimg{
       width: 100%;
       margin-top: 20px;
       border-radius: 10px;
       background-image: var(--props-image);
-      background-repeat: no-repeat;
-      background-size:cover;
     }
   }
 
@@ -52,43 +41,45 @@
     height: 800px;
     float: right;
     box-sizing: border-box;
-    //background-color: rgb(52, 209, 209);
+    font-family: $fontOswald;
     
     .Detail-infobox__title {
       width: 400px;
       margin-top: 20px;
-      font-family: "Oswald",sans-serif;
       line-height: 1;
       margin-bottom: 30px;
 
       span{
         font-size: 50px;
-        color: #ffff;
+        color: var(--white);  
       }
     }
 
     .Detail-infobox__label {
       width: 400px;
-      font-size: 18px;
-      font-weight: 600;
-      color: yellow;
+      font-weight: $fontW600;
+      
+      span{
+        color: var(--yellow);
+      }  
     }
 
     .Detail-infobox__plot{
       width: 800px;
       margin-top: 20px;
-      color: #6c757d;
+
+      span{
+        color: var(--gray);
+      }
     }
 
     @mixin ContentBox{
       margin: 20px 0 6px;
-      color: #ffff;
-      font-size: 20px;
+      color: var(--white)
     }
 
     .Detail-infobox__ratings{
       @include ContentBox;
-      font-family: "Oswald",sans-serif;
 
       .Detail-Database__box{
         display: flex;  
@@ -98,7 +89,7 @@
     .Detail-Movie__Database{
       display: flex;
       align-items:center;
-      margin-right:32px;
+      margin-right:40px;
     }
 
     .Detail-Movie__Database img{
@@ -109,12 +100,6 @@
 
     .Detail-infobox__actors {
       @include ContentBox;
-      font-family: "Oswald",sans-serif;
-    }
-
-    span{
-      font-size: 15px;
-      color: #ffff;
     }
   }
 };

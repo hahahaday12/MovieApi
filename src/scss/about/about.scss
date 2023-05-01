@@ -1,45 +1,40 @@
+@import'../variables';
+
 .AboutContainer{
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-  //background-color: rgb(240, 52, 115);
-  position: relative;
+
 
   .AboutContainer-photo{
     width: 250px;
     height: 250px;
     margin: 40px auto 20px;
     padding: 30px;
-    border: 10px solid #dee2e6;
+    border: 10px solid var(--white);
     border-radius: 50%;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #e9ecef;
+    background-color: var(--white);
     position: relative;
     overflow: hidden;
 
     img{
-      width: 280px;
-      height: 230px;
+      width: 271px;
+      height: 271px;
       position: absolute;
-      left: -3px;
-      top: 1px;
+      left: -23px;
+      top: -12px;
     }
   }
 
   .AboutContainer-box{
     display: block;
-    //background-color: pink;
     font-family: 'Noto Sans', sans-serif;
 
     span{
-      width: 190px;
-      font-size: 40px;
-      font-weight: 800;
+      width: 240px;
+      font-size: 50px;
+      font-weight:$fontW800;
       display: flex;
-      color:#ffff;
+      color: var(--white);
       margin: auto;
       margin-bottom: 20px;
     }
@@ -50,14 +45,10 @@
       margin: auto;
 
       p {
-        font-size: 16px;
-        color:#ffff;
+        color:var(--white);
         font-weight: bold;
         margin-top: 10px;
       }
     }
   }
-
-
-
-}
+};

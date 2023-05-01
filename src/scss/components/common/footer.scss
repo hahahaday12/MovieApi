@@ -1,33 +1,30 @@
-footer{
-    padding:60px 0;
-    text-align:center;
-    opacity:.5;
-    //background-color: #e9a9a9;
-    margin-top: 50px;
+@import'../../variables';
 
-    .Link-box{
-      //background-color: yellow;
-      display: block;
-      text-decoration: none;
-      
+footer{
+  padding:60px 0;
+  text-align:center;
+  opacity:.5;
+  margin-top: 50px;
+
+  .Link-box{
+    display: block;
+    
     .Link-box__text{
-      color: #F0F0F0;
+      color: var(--white);
       margin: auto;
       left: 0;
       right: 0;
       width: 100px;
       font-size: 20px;
-      font-weight: 800;
-      font-family: "Oswald",sans-serif;
+      font-weight: $fontW800;
     }
+    
     span {
-      color:#d21212;
-      font-family: "Oswald",sans-serif; 
+      color:var(--red);
     }
 
     .link-button{
-      color: #ffff
-      
+      color: var(--white); 
     }
   }
 };
