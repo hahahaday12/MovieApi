@@ -4,7 +4,7 @@ import Header from './components/common/header'
 import Footer from './components/common/footer'
 import DetailPage from './page/Detail/detailPage'
 import AboutPage from './page/About/aboutPage'
-import NotFoundPage from './page/error/NotFound'
+import NotFoundPage from './page/NotFoundPage/NotFound'
 import { PageContextProvider } from './store/context'
 import './scss/App.scss'
 
