@@ -1,20 +1,8 @@
+@import'../variables';
+
 .YearContainer-input__selects{
-    width: 120px;
-    background-color: rgb(102, 76, 220);
-    margin-left: 20px;
-  
-    .Year-select{
-        width: 140px;
-        display: flex;
-        position: absolute;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.5;
-        color: #212529;
-        padding: 12px 23px 18px 14px;
-        background-color: #fff;
-        background-size: 16px 12px;
-        border: 1px solid #ced4da;
-        border-radius: 0.25rem;
-    }
-}
+
+  .Year-select{
+      @include selectStyle;
+  }
+};
