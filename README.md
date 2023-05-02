@@ -93,7 +93,7 @@ $ npm run dev
 #### ⭐️ 1) 영화 검색 기능 
 -> input창에 검색 정보를 입력할때 handleChange 의 함수가 실행되고 button 을 클릭하면 props.setData 를 사용해 info 정보를 SearchResult 의 컴포넌트에 데이터를 받아오게 됩니다.
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/101441685/235752509-de7c6063-2345-406b-916d-7d8799ee3d7b.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/101441685/235754725-c5ca9220-4c23-4f23-b988-2cbab8c54eeb.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/101441685/235608980-000b77c9-144c-491c-adda-e7772627d8b1.png">
 
 
