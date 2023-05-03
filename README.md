@@ -182,7 +182,8 @@ useData 에는 평점내용을 각각 보관하는 부분 입니다.
 
 <img width="557" alt="image" src="https://user-images.githubusercontent.com/101441685/235745645-176b3e7f-f5b8-4ea7-923b-cdfb4d992c08.png">
 
-<img width="493" alt="image" src="https://user-images.githubusercontent.com/101441685/235745709-1989832b-74c9-45c9-a989-014a4d811bb8.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/101441685/235838492-03c192f6-3868-41b8-a83b-3aefcd76cb84.png">
+
 
 
 
