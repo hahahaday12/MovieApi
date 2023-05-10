@@ -52,7 +52,7 @@ $ npm run dev
 ![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=React&logoColor=white)
 ![MUI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=MUI&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-E34F26?style=for-the-badge&logo=SCSS&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=SASS&logoColor=white)
 
 ---
 ## 화면 구성 📺
