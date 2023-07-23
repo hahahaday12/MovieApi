@@ -3,10 +3,6 @@
 ## 배포 주소
 -> https://web-movieapi-6g2llffebnui.sel3.cloudtype.app/
 
-## 예시 사이트 
--> https://stupefied-hodgkin-d9d350.netlify.app/#/
-
-
 ## 📌 유의사항 
 -> 모든 디바이스의 최적화 되어있지 않습니다.<br/>
 
